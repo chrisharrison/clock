@@ -27,7 +27,7 @@ Outputs:
 1988-05-01 16:00:00
 ```
 
-### System clock (has a hard dependencies on the underlying operating system's clock) ###
+### System clock (has a hard dependency on the underlying operating system's clock) ###
 
 ```
 $systemClock = new \ChrisHarrison\Clock\SystemClock;
