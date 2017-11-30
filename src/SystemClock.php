@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ChrisHarrison\Clock;
 
-class SystemClock implements Clock
+final class SystemClock implements Clock
 {
     public function now(): \DateTimeInterface
     {
