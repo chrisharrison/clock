@@ -2,6 +2,7 @@
     "name": "chrisharrison/clock",
     "description": "A PHP 7.1 clock.",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Chris Harrison",
