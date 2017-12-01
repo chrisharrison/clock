@@ -1,6 +1,6 @@
 {
     "name": "chrisharrison/clock",
-    "description": "A PHP 7 clock.",
+    "description": "A PHP 7.1 clock.",
     "type": "library",
     "authors": [
         {
@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "php": "^7.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.3"
