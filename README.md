@@ -13,7 +13,7 @@ composer require chrisharrison/clock
 
 ### Frozen clock (useful for testing) ###
 
-```
+```php
 $frozenClock = new \ChrisHarrison\Clock\FrozenClock(new \DateTime('1988-05-01 16:00:00'));
 echo $frozenClock->now()->format('Y-m-d H:i:s');
 echo $frozenClock->now()->format('Y-m-d H:i:s');
@@ -29,7 +29,7 @@ Outputs:
 
 ### System clock (has a hard dependency on the underlying operating system's clock) ###
 
-```
+```php
 $systemClock = new \ChrisHarrison\Clock\SystemClock;
 echo $systemClock->now()->format('Y-m-d H:i:s');
 echo $systemClock->now()->format('Y-m-d H:i:s');
