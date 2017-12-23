@@ -1,5 +1,5 @@
 # clock
-A PHP 7.1 clock interface.
+A PHP 7 clock interface.
 
 ## Installation ##
 
