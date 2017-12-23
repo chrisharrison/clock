@@ -1,5 +1,10 @@
 # clock
+
 A PHP 7 clock interface.
+
+
+[![Build Status](https://travis-ci.org/chrisharrison/clock.svg)](https://travis-ci.org/chrisharrison/clock)
+[![Version](https://img.shields.io/packagist/v/chrisharrison/clock.svg)](https://packagist.org/packages/chrisharrison/clock)
 
 ## Installation ##
 
